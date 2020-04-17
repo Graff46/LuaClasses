@@ -1,4 +1,4 @@
-local function noop(...) return end
+local function noop() return end
 
 function createClass(name, static)
   local model = {}
