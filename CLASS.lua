@@ -8,6 +8,9 @@ function createClass(name, static)
   interface.finalize = noop
   
   function _caller(obj, ...)
+    for key, value in pairs(interface) do
+      model[key] = value
+    end
     obj:Init(...)
     --print "_caller"
     return model
