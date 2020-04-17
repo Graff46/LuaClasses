@@ -35,17 +35,17 @@ function createClass(name, static)
     _G[name] = interface
   end
   
-  return model
+  return model, interface
 end
 
 function class(className, static)
-  local signature = createClass(className, static)
+  local signature, interface = createClass(className, static)
 
   return function(ParentClass) 
     for key, value in pairs(ParentClass or {}) do
       signature[key] = value
     end
-    return signature
+    return interface
   end
 end
 
