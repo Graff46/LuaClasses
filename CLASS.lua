@@ -46,6 +46,6 @@ function class(className, static)
   end
 end
 
-function structura(className)
+function structure(className)
   return class(className, true)
 end
