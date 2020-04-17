@@ -42,7 +42,7 @@ function class(className, static)
   local signature = createClass(className, static)
 
   return function(ParentClass) 
-    for key, value in pairs(ParentClass) do
+    for key, value in pairs(ParentClass or {}) do
       signature[key] = value
     end
     return signature
