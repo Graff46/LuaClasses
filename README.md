@@ -30,7 +30,8 @@ function MyClass:myMethod()
 end
 ```
  (ParentClass) you don't have to write if you don't need it.
- possible so:
+
+Possible so:
  ```lua
  class "MyClass" 
  
@@ -38,5 +39,6 @@ end
  
  class ("MyClass", true)
 ```
-Method-function "Init" it is constructor of class
-Method-function "finalize" it is destructor of class
+Method-function "Init" it is constructor of class.
+
+Method-function "finalize" it is destructor of class.
