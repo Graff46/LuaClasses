@@ -39,5 +39,6 @@ Possible so:
  
  class ("MyClass", true)
 ```
-Method-function "Init" it is constructor of class
-Method-function "finalize" it is destructor of class
+Method-function "Init" it is constructor of class.
+
+Method-function "finalize" it is destructor of class.
