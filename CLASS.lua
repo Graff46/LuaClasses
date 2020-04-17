@@ -8,7 +8,7 @@ function createClass(name, static)
   interface.finalize = noop
   
   function _caller(obj, ...)
-    obj:Init()
+    obj:Init(...)
     --print "_caller"
     return model
   end
