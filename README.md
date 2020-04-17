@@ -42,3 +42,5 @@ Possible so:
 Method-function "Init" it is constructor of class.
 
 Method-function "finalize" it is destructor of class.
+
+https://repl.it/repls/WarmheartedStrikingSquare
